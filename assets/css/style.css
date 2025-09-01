@@ -1,5 +1,9 @@
+:root {
+    --primary-color : #00E2B3;
+}
+
 body {
-    background-color: rgb(0, 0, 56);
+    background-color: var(--primary-color);
 }
 
 .footer {
