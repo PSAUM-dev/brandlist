@@ -18,6 +18,7 @@ fetch (BrandListUrlRequest)
 
             <div class="col-lg-4 col-sm-6 mb-4">
                 <a href="#" class="px-4 py-4 bg-white text-center d-block match-height">
+                    <img width="100%" src="${brand.brand_image}" alt="">
                     <h3 class="mb-3 mt-0">${brand.brand_name}</h3>
 
                 </a>
