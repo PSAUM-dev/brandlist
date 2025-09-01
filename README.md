@@ -30,4 +30,4 @@ git clone https://github.com/PSAUM-dev/brandlist.git
 
 ## Usage
 Open in your browser
-<code>http://localhost/brandlist</code>
+<code>http://[Your_Host]/brandlist</code>
