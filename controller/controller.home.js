@@ -1,5 +1,5 @@
 
-const BrandListUrlRequest = 'http://localhost/gestion/brands/';
+const BrandListUrlRequest = 'http://localhost/brand-api/brands';
 
 fetch (BrandListUrlRequest)
 
