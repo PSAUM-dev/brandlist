@@ -12,7 +12,7 @@
 
     <!-- My custom ccss -->
     <link rel="stylesheet" href="assets/css/style.css" />
-
+    
 </head>
 <body class="position-relative">
 
@@ -36,6 +36,9 @@
 
         // Footer
         include 'components/comp.footer.php';
+
+        //Bootstrap
+        echo "<script src='assets/js/bootstrap.bundle.min.js'></script>";
 
         // Page controller
         echo "<script type='module' src='controller/controller.$pageIndex.js?version=$version'></script>";

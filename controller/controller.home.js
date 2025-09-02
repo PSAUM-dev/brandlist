@@ -1,4 +1,3 @@
-
 const BrandListUrlRequest = 'http://localhost/brand-api/brands';
 
 fetch (BrandListUrlRequest)
@@ -47,8 +46,21 @@ fetch (BrandListUrlRequest)
                     </div>
                 </div>
 
-                <div class="text-center p-2 bg-light">
-                    <a href="">Plus d'informations</a>
+                <div class="text-center p-2 bg-light d-flex justify-content-between">
+                    <div>
+                        <a href="">Plus d'informations</a>
+                    </div>
+
+
+                <div class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#." data-bs-toggle="dropdown"
+                        aria-expanded="true">Options</a>
+                    <ul class="dropdown-menu" data-bs-popper="static">
+                        <li><a class="dropdown-item" href="#">Modifier</a></li>
+                        <li><a class="dropdown-item text-danger" href="#">Supprimer</a></li>
+                    </ul>
+                </div>
+
                 </div>
             </div>
             
